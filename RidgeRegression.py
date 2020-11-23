@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+
+import numpy as np
+import pandas as pd
+
 class RidgeRegression:
     def __init__(self, step_size, epochs, batch_size, reg_weight):
         self.step_size = step_size
